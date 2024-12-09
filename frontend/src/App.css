@@ -1,0 +1,138 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #2A3950;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  color: #fff;
+}
+
+.top {
+  text-align: center;
+  font-size: 36px;
+  color: #FFF;
+  margin-bottom: 20px;
+}
+
+/* Registration Container */
+.registration-container {
+  background-color: #984063;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 600;
+  color: #FE9667;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-button {
+  width: 50%;
+  padding: 10px;
+  background-color: #f8757e;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Voting Container */
+.voting-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.table-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.table-header, .list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.table-header {
+  background-color: #f64668;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table-header span, .list-item span {
+  flex: 1;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.scrollable-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.list-item {
+  background-color: #984063;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.list-item:nth-child(even) {
+  background-color: #822f54;
+}
+
+.list-item:hover {
+  background-color: rgba(238, 238, 238, 0.8);
+  color: #000;
+}
+
+.can {
+  flex: 1;
+  text-align: center;
+}
+
+.vote {
+  padding: 7px 15px;
+  background-color: #FE9667;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.vote:hover {
+  background-color: #f8757e;
+}
